@@ -1,0 +1,76 @@
+1. Login:
+	nombre_usuario/correo
+	pass
+
+2. register:
+	nombre usuario
+	correo_electronico
+	contraseña (encriptado)
+	repetir_contraseña (front)
+	foto_perfil
+
+3. dashboard -> home
+	response:
+		foto_perfil
+		nombre usuario
+
+
+tablas:
+
+user:
+	id_user
+	nombre usuario
+	correo_electronico
+	contraseña (encriptado)
+	repetir_contraseña (front)
+	foto_perfil
+
+documentos: 
+	id_documento
+	nombre
+	tipo:
+		pdf
+		imagen
+		txt
+	visibilidad:
+		publico
+		privado
+
+
+user_documentos:
+	id_user
+	id_documento
+
+friends
+	id_user1
+	id_user2
+	
+
+
+BASE DE DATOS AWS 
+MYSQKl
+
+Nombre de usuario maestro: admin
+Contraseña maestra:  root_BD2S2022	
+	
+
+
+
+1 -> renan 	
+2 ->  maynor 
+3 ->  renan
+4 ->  maynor 
+5 ->  maynor
+6 ->  renan 
+7 ->  damihan
+8 ->  pendiente
+9 ->  pendiente 
+10 -> damihan 
+11 -> grupal 
+12 -> damihan
+13 -> grupal 
+
+casos de uso:
+
+
+
